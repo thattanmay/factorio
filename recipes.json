@@ -1,0 +1,940 @@
+{
+    "ACCUMULATOR": [
+        "IRON_PLATE",
+        "BATTERY"
+    ],
+    "ADVANCED_CIRCUIT": [
+        "PLASTIC_BAR",
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ADVANCED_OIL_PROCESSING": [
+        "WATER",
+        "CRUDE_OIL"
+    ],
+    "ARITHMETIC_COMBINATOR": [
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ARTILLERY_SHELL": [
+        "EXPLOSIVES",
+        "EXPLOSIVE_CANNON_SHELL",
+        "RADAR"
+    ],
+    "ARTILLERY_TARGETING_REMOTE": [
+        "PROCESSING_UNIT",
+        "RADAR"
+    ],
+    "ARTILLERY_TURRET": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT",
+        "CONCRETE"
+    ],
+    "ARTILLERY_WAGON": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT",
+        "ENGINE_UNIT",
+        "PIPE"
+    ],
+    "ASSEMBLING_MACHINE_1": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ASSEMBLING_MACHINE_2": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "ASSEMBLING_MACHINE_1"
+    ],
+    "ASSEMBLING_MACHINE_3": [
+        "ASSEMBLING_MACHINE_2",
+        "SPEED_MODULE"
+    ],
+    "ATOMIC_BOMB": [
+        "EXPLOSIVES",
+        "ROCKET_CONTROL_UNIT",
+        "URANIUM_235"
+    ],
+    "AUTOMATION_SCIENCE_PACK": [
+        "COPPER_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "BASIC_OIL_PROCESSING": [
+        "CRUDE_OIL"
+    ],
+    "BATTERY": [
+        "IRON_PLATE",
+        "COPPER_PLATE",
+        "SULFURIC_ACID"
+    ],
+    "BATTERY_EQUIPMENT": [
+        "STEEL_PLATE",
+        "BATTERY"
+    ],
+    "BATTERY_MK2_EQUIPMENT": [
+        "PROCESSING_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "BATTERY_EQUIPMENT"
+    ],
+    "BEACON": [
+        "STEEL_PLATE",
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT"
+    ],
+    "BELT_IMMUNITY_EQUIPMENT": [
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT"
+    ],
+    "BIG_ELECTRIC_POLE": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "IRON_STICK"
+    ],
+    "BOILER": [
+        "PIPE",
+        "STONE_FURNACE"
+    ],
+    "BURNER_INSERTER": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "BURNER_MINING_DRILL": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "STONE_FURNACE"
+    ],
+    "CANNON_SHELL": [
+        "STEEL_PLATE",
+        "PLASTIC_BAR",
+        "EXPLOSIVES"
+    ],
+    "CAR": [
+        "IRON_PLATE",
+        "STEEL_PLATE",
+        "ENGINE_UNIT"
+    ],
+    "CARGO_WAGON": [
+        "IRON_PLATE",
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "CENTRIFUGE": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT",
+        "CONCRETE"
+    ],
+    "CHEMICAL_PLANT": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "PIPE"
+    ],
+    "CHEMICAL_SCIENCE_PACK": [
+        "SULFUR",
+        "ADVANCED_CIRCUIT",
+        "ENGINE_UNIT"
+    ],
+    "CLIFF_EXPLOSIVES": [
+        "EXPLOSIVES",
+        "EMPTY_BARREL",
+        "GRENADE"
+    ],
+    "CLUSTER_GRENADE": [
+        "STEEL_PLATE",
+        "EXPLOSIVES",
+        "GRENADE"
+    ],
+    "COAL_LIQUEFACTION": [
+        "COAL",
+        "HEAVY_OIL",
+        "STEAM"
+    ],
+    "COMBAT_SHOTGUN": [
+        "WOOD",
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "CONCRETE": [
+        "IRON_ORE",
+        "STONE_BRICK",
+        "WATER"
+    ],
+    "CONSTANT_COMBINATOR": [
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "CONSTRUCTION_ROBOT": [
+        "ELECTRONIC_CIRCUIT",
+        "FLYING_ROBOT_FRAME"
+    ],
+    "COPPER_CABLE": [
+        "COPPER_PLATE"
+    ],
+    "COPPER_PLATE": [
+        "COPPER_ORE"
+    ],
+    "DECIDER_COMBINATOR": [
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "DEFENDER_CAPSULE": [
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "PIERCING_ROUNDS_MAGAZINE"
+    ],
+    "DESTROYER_CAPSULE": [
+        "SPEED_MODULE",
+        "DISTRACTOR_CAPSULE"
+    ],
+    "DISCHARGE_DEFENSE_EQUIPMENT": [
+        "STEEL_PLATE",
+        "PROCESSING_UNIT",
+        "LASER_TURRET"
+    ],
+    "DISCHARGE_DEFENSE_REMOTE": [
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "DISTRACTOR_CAPSULE": [
+        "ADVANCED_CIRCUIT",
+        "DEFENDER_CAPSULE"
+    ],
+    "EFFECTIVITY_MODULE": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT"
+    ],
+    "EFFECTIVITY_MODULE_2": [
+        "ADVANCED_CIRCUIT",
+        "PROCESSING_UNIT",
+        "EFFECTIVITY_MODULE"
+    ],
+    "EFFECTIVITY_MODULE_3": [
+        "ADVANCED_CIRCUIT",
+        "PROCESSING_UNIT",
+        "EFFECTIVITY_MODULE_2"
+    ],
+    "ELECTRIC_ENERGY_INTERFACE": [
+        "IRON_PLATE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ELECTRIC_ENGINE_UNIT": [
+        "ELECTRONIC_CIRCUIT",
+        "ENGINE_UNIT",
+        "LUBRICANT"
+    ],
+    "ELECTRIC_FURNACE": [
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT",
+        "STONE_BRICK"
+    ],
+    "ELECTRIC_MINING_DRILL": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ELECTRONIC_CIRCUIT": [
+        "IRON_PLATE",
+        "COPPER_CABLE"
+    ],
+    "EMPTY_BARREL": [
+        "STEEL_PLATE"
+    ],
+    "EMPTY_CRUDE_OIL_BARREL": [
+        "CRUDE_OIL_BARREL"
+    ],
+    "EMPTY_HEAVY_OIL_BARREL": [
+        "HEAVY_OIL_BARREL"
+    ],
+    "EMPTY_LIGHT_OIL_BARREL": [
+        "LIGHT_OIL_BARREL"
+    ],
+    "EMPTY_LUBRICANT_BARREL": [
+        "LUBRICANT_BARREL"
+    ],
+    "EMPTY_PETROLEUM_GAS_BARREL": [
+        "PETROLEUM_GAS_BARREL"
+    ],
+    "EMPTY_SULFURIC_ACID_BARREL": [
+        "SULFURIC_ACID_BARREL"
+    ],
+    "EMPTY_WATER_BARREL": [
+        "WATER_BARREL"
+    ],
+    "ENERGY_SHIELD_EQUIPMENT": [
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT"
+    ],
+    "ENERGY_SHIELD_MK2_EQUIPMENT": [
+        "PROCESSING_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "ENERGY_SHIELD_EQUIPMENT"
+    ],
+    "ENGINE_UNIT": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "PIPE"
+    ],
+    "EXOSKELETON_EQUIPMENT": [
+        "STEEL_PLATE",
+        "PROCESSING_UNIT",
+        "ELECTRIC_ENGINE_UNIT"
+    ],
+    "EXPLOSIVES": [
+        "COAL",
+        "SULFUR",
+        "WATER"
+    ],
+    "EXPLOSIVE_CANNON_SHELL": [
+        "STEEL_PLATE",
+        "PLASTIC_BAR",
+        "EXPLOSIVES"
+    ],
+    "EXPLOSIVE_ROCKET": [
+        "EXPLOSIVES",
+        "ROCKET"
+    ],
+    "EXPLOSIVE_URANIUM_CANNON_SHELL": [
+        "URANIUM_238",
+        "EXPLOSIVE_CANNON_SHELL"
+    ],
+    "EXPRESS_SPLITTER": [
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT",
+        "FAST_SPLITTER",
+        "LUBRICANT"
+    ],
+    "EXPRESS_TRANSPORT_BELT": [
+        "IRON_GEAR_WHEEL",
+        "FAST_TRANSPORT_BELT",
+        "LUBRICANT"
+    ],
+    "EXPRESS_UNDERGROUND_BELT": [
+        "IRON_GEAR_WHEEL",
+        "FAST_UNDERGROUND_BELT",
+        "LUBRICANT"
+    ],
+    "FAST_INSERTER": [
+        "IRON_PLATE",
+        "ELECTRONIC_CIRCUIT",
+        "INSERTER"
+    ],
+    "FAST_SPLITTER": [
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "SPLITTER"
+    ],
+    "FAST_TRANSPORT_BELT": [
+        "IRON_GEAR_WHEEL",
+        "TRANSPORT_BELT"
+    ],
+    "FAST_UNDERGROUND_BELT": [
+        "IRON_GEAR_WHEEL",
+        "UNDERGROUND_BELT"
+    ],
+    "FILL_CRUDE_OIL_BARREL": [
+        "EMPTY_BARREL",
+        "CRUDE_OIL"
+    ],
+    "FILL_HEAVY_OIL_BARREL": [
+        "EMPTY_BARREL",
+        "HEAVY_OIL"
+    ],
+    "FILL_LIGHT_OIL_BARREL": [
+        "EMPTY_BARREL",
+        "LIGHT_OIL"
+    ],
+    "FILL_LUBRICANT_BARREL": [
+        "EMPTY_BARREL",
+        "LUBRICANT"
+    ],
+    "FILL_PETROLEUM_GAS_BARREL": [
+        "EMPTY_BARREL",
+        "PETROLEUM_GAS"
+    ],
+    "FILL_SULFURIC_ACID_BARREL": [
+        "EMPTY_BARREL",
+        "SULFURIC_ACID"
+    ],
+    "FILL_WATER_BARREL": [
+        "EMPTY_BARREL",
+        "WATER"
+    ],
+    "FILTER_INSERTER": [
+        "ELECTRONIC_CIRCUIT",
+        "FAST_INSERTER"
+    ],
+    "FIREARM_MAGAZINE": [
+        "IRON_PLATE"
+    ],
+    "FLAMETHROWER": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "FLAMETHROWER_AMMO": [
+        "STEEL_PLATE",
+        "CRUDE_OIL"
+    ],
+    "FLAMETHROWER_TURRET": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ENGINE_UNIT",
+        "PIPE"
+    ],
+    "FLUID_WAGON": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "STORAGE_TANK",
+        "PIPE"
+    ],
+    "FLYING_ROBOT_FRAME": [
+        "STEEL_PLATE",
+        "BATTERY",
+        "ELECTRONIC_CIRCUIT",
+        "ELECTRIC_ENGINE_UNIT"
+    ],
+    "FUSION_REACTOR_EQUIPMENT": [
+        "PROCESSING_UNIT",
+        "LOW_DENSITY_STRUCTURE"
+    ],
+    "GATE": [
+        "STEEL_PLATE",
+        "ELECTRONIC_CIRCUIT",
+        "WALL"
+    ],
+    "GREEN_WIRE": [
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "GRENADE": [
+        "COAL",
+        "IRON_PLATE"
+    ],
+    "GUN_TURRET": [
+        "IRON_PLATE",
+        "COPPER_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "HAZARD_CONCRETE": [
+        "CONCRETE"
+    ],
+    "HEAT_EXCHANGER": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "PIPE"
+    ],
+    "HEAT_PIPE": [
+        "COPPER_PLATE",
+        "STEEL_PLATE"
+    ],
+    "HEAVY_ARMOR": [
+        "COPPER_PLATE",
+        "STEEL_PLATE"
+    ],
+    "HEAVY_OIL_CRACKING": [
+        "WATER",
+        "HEAVY_OIL"
+    ],
+    "INSERTER": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "IRON_CHEST": [
+        "IRON_PLATE"
+    ],
+    "IRON_GEAR_WHEEL": [
+        "IRON_PLATE"
+    ],
+    "IRON_PLATE": [
+        "IRON_ORE"
+    ],
+    "IRON_STICK": [
+        "IRON_PLATE"
+    ],
+    "KOVAREX_ENRICHMENT_PROCESS": [
+        "URANIUM_235",
+        "URANIUM_238"
+    ],
+    "LAB": [
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "TRANSPORT_BELT"
+    ],
+    "LANDFILL": [
+        "STONE"
+    ],
+    "LAND_MINE": [
+        "STEEL_PLATE",
+        "EXPLOSIVES"
+    ],
+    "LASER_TURRET": [
+        "STEEL_PLATE",
+        "BATTERY",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "LIGHT_ARMOR": [
+        "IRON_PLATE"
+    ],
+    "LIGHT_OIL_CRACKING": [
+        "WATER",
+        "LIGHT_OIL"
+    ],
+    "LOCOMOTIVE": [
+        "STEEL_PLATE",
+        "ELECTRONIC_CIRCUIT",
+        "ENGINE_UNIT"
+    ],
+    "LOGISTIC_CHEST_ACTIVE_PROVIDER": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "STEEL_CHEST"
+    ],
+    "LOGISTIC_CHEST_BUFFER": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "STEEL_CHEST"
+    ],
+    "LOGISTIC_CHEST_PASSIVE_PROVIDER": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "STEEL_CHEST"
+    ],
+    "LOGISTIC_CHEST_REQUESTER": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "STEEL_CHEST"
+    ],
+    "LOGISTIC_CHEST_STORAGE": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "STEEL_CHEST"
+    ],
+    "LOGISTIC_ROBOT": [
+        "ADVANCED_CIRCUIT",
+        "FLYING_ROBOT_FRAME"
+    ],
+    "LOGISTIC_SCIENCE_PACK": [
+        "TRANSPORT_BELT",
+        "INSERTER"
+    ],
+    "LONG_HANDED_INSERTER": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "INSERTER"
+    ],
+    "LOW_DENSITY_STRUCTURE": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "PLASTIC_BAR"
+    ],
+    "LUBRICANT": [
+        "HEAVY_OIL"
+    ],
+    "MEDIUM_ELECTRIC_POLE": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "IRON_STICK"
+    ],
+    "MILITARY_SCIENCE_PACK": [
+        "PIERCING_ROUNDS_MAGAZINE",
+        "GRENADE",
+        "WALL"
+    ],
+    "MODULAR_ARMOR": [
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT"
+    ],
+    "NIGHT_VISION_EQUIPMENT": [
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT"
+    ],
+    "NUCLEAR_FUEL": [
+        "ROCKET_FUEL",
+        "URANIUM_235"
+    ],
+    "NUCLEAR_FUEL_REPROCESSING": [
+        "USED_UP_URANIUM_FUEL_CELL"
+    ],
+    "NUCLEAR_REACTOR": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT",
+        "CONCRETE"
+    ],
+    "OFFSHORE_PUMP": [
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "PIPE"
+    ],
+    "OIL_REFINERY": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "PIPE",
+        "STONE_BRICK"
+    ],
+    "PERSONAL_LASER_DEFENSE_EQUIPMENT": [
+        "PROCESSING_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "LASER_TURRET"
+    ],
+    "PERSONAL_ROBOPORT_EQUIPMENT": [
+        "STEEL_PLATE",
+        "BATTERY",
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT"
+    ],
+    "PERSONAL_ROBOPORT_MK2_EQUIPMENT": [
+        "PROCESSING_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "PERSONAL_ROBOPORT_EQUIPMENT"
+    ],
+    "PIERCING_ROUNDS_MAGAZINE": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "FIREARM_MAGAZINE"
+    ],
+    "PIERCING_SHOTGUN_SHELL": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "SHOTGUN_SHELL"
+    ],
+    "PIPE": [
+        "IRON_PLATE"
+    ],
+    "PIPE_TO_GROUND": [
+        "IRON_PLATE",
+        "PIPE"
+    ],
+    "PISTOL": [
+        "IRON_PLATE",
+        "COPPER_PLATE"
+    ],
+    "PLASTIC_BAR": [
+        "COAL",
+        "PETROLEUM_GAS"
+    ],
+    "POISON_CAPSULE": [
+        "COAL",
+        "STEEL_PLATE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "POWER_ARMOR": [
+        "STEEL_PLATE",
+        "PROCESSING_UNIT",
+        "ELECTRIC_ENGINE_UNIT"
+    ],
+    "POWER_ARMOR_MK2": [
+        "PROCESSING_UNIT",
+        "ELECTRIC_ENGINE_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "SPEED_MODULE_2",
+        "EFFECTIVITY_MODULE_2"
+    ],
+    "POWER_SWITCH": [
+        "IRON_PLATE",
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "PROCESSING_UNIT": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "SULFURIC_ACID"
+    ],
+    "PRODUCTION_SCIENCE_PACK": [
+        "RAIL",
+        "ELECTRIC_FURNACE",
+        "PRODUCTIVITY_MODULE"
+    ],
+    "PRODUCTIVITY_MODULE": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT"
+    ],
+    "PRODUCTIVITY_MODULE_2": [
+        "ADVANCED_CIRCUIT",
+        "PROCESSING_UNIT",
+        "PRODUCTIVITY_MODULE"
+    ],
+    "PRODUCTIVITY_MODULE_3": [
+        "ADVANCED_CIRCUIT",
+        "PROCESSING_UNIT",
+        "PRODUCTIVITY_MODULE_2"
+    ],
+    "PROGRAMMABLE_SPEAKER": [
+        "IRON_PLATE",
+        "COPPER_CABLE",
+        "IRON_STICK",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "PUMP": [
+        "STEEL_PLATE",
+        "ENGINE_UNIT",
+        "PIPE"
+    ],
+    "PUMPJACK": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "PIPE"
+    ],
+    "RADAR": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "RAIL": [
+        "STONE",
+        "STEEL_PLATE",
+        "IRON_STICK"
+    ],
+    "RAIL_CHAIN_SIGNAL": [
+        "IRON_PLATE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "RAIL_SIGNAL": [
+        "IRON_PLATE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "RED_WIRE": [
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "REFINED_CONCRETE": [
+        "STEEL_PLATE",
+        "IRON_STICK",
+        "CONCRETE",
+        "WATER"
+    ],
+    "REFINED_HAZARD_CONCRETE": [
+        "REFINED_CONCRETE"
+    ],
+    "REPAIR_PACK": [
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ROBOPORT": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT"
+    ],
+    "ROCKET": [
+        "IRON_PLATE",
+        "EXPLOSIVES",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ROCKET_CONTROL_UNIT": [
+        "PROCESSING_UNIT",
+        "SPEED_MODULE"
+    ],
+    "ROCKET_FUEL": [
+        "SOLID_FUEL",
+        "LIGHT_OIL"
+    ],
+    "ROCKET_LAUNCHER": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "ROCKET_SILO": [
+        "STEEL_PLATE",
+        "PROCESSING_UNIT",
+        "ELECTRIC_ENGINE_UNIT",
+        "PIPE",
+        "CONCRETE"
+    ],
+    "SATELLITE": [
+        "PROCESSING_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "ROCKET_FUEL",
+        "SOLAR_PANEL",
+        "ACCUMULATOR",
+        "RADAR"
+    ],
+    "SHOTGUN": [
+        "WOOD",
+        "IRON_PLATE",
+        "COPPER_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "SHOTGUN_SHELL": [
+        "IRON_PLATE",
+        "COPPER_PLATE"
+    ],
+    "SLOWDOWN_CAPSULE": [
+        "COAL",
+        "STEEL_PLATE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "SMALL_ELECTRIC_POLE": [
+        "WOOD",
+        "COPPER_CABLE"
+    ],
+    "SMALL_LAMP": [
+        "IRON_PLATE",
+        "COPPER_CABLE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "SOLAR_PANEL": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "SOLAR_PANEL_EQUIPMENT": [
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT",
+        "SOLAR_PANEL"
+    ],
+    "SOLID_FUEL_FROM_HEAVY_OIL": [
+        "HEAVY_OIL"
+    ],
+    "SOLID_FUEL_FROM_LIGHT_OIL": [
+        "LIGHT_OIL"
+    ],
+    "SOLID_FUEL_FROM_PETROLEUM_GAS": [
+        "PETROLEUM_GAS"
+    ],
+    "SPEED_MODULE": [
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT"
+    ],
+    "SPEED_MODULE_2": [
+        "ADVANCED_CIRCUIT",
+        "PROCESSING_UNIT",
+        "SPEED_MODULE"
+    ],
+    "SPEED_MODULE_3": [
+        "ADVANCED_CIRCUIT",
+        "PROCESSING_UNIT",
+        "SPEED_MODULE_2"
+    ],
+    "SPIDERTRON": [
+        "RAW_FISH",
+        "ROCKET_CONTROL_UNIT",
+        "LOW_DENSITY_STRUCTURE",
+        "EFFECTIVITY_MODULE_3",
+        "ROCKET_LAUNCHER",
+        "FUSION_REACTOR_EQUIPMENT",
+        "EXOSKELETON_EQUIPMENT",
+        "RADAR"
+    ],
+    "SPIDERTRON_REMOTE": [
+        "ROCKET_CONTROL_UNIT",
+        "RADAR"
+    ],
+    "SPLITTER": [
+        "IRON_PLATE",
+        "ELECTRONIC_CIRCUIT",
+        "TRANSPORT_BELT"
+    ],
+    "STACK_FILTER_INSERTER": [
+        "ELECTRONIC_CIRCUIT",
+        "STACK_INSERTER"
+    ],
+    "STACK_INSERTER": [
+        "IRON_GEAR_WHEEL",
+        "ELECTRONIC_CIRCUIT",
+        "ADVANCED_CIRCUIT",
+        "FAST_INSERTER"
+    ],
+    "STEAM_ENGINE": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL",
+        "PIPE"
+    ],
+    "STEAM_TURBINE": [
+        "COPPER_PLATE",
+        "IRON_GEAR_WHEEL",
+        "PIPE"
+    ],
+    "STEEL_CHEST": [
+        "STEEL_PLATE"
+    ],
+    "STEEL_FURNACE": [
+        "STEEL_PLATE",
+        "STONE_BRICK"
+    ],
+    "STEEL_PLATE": [
+        "IRON_PLATE"
+    ],
+    "STONE_BRICK": [
+        "STONE"
+    ],
+    "STONE_FURNACE": [
+        "STONE"
+    ],
+    "WALL": [
+        "STONE_BRICK"
+    ],
+    "STORAGE_TANK": [
+        "IRON_PLATE",
+        "STEEL_PLATE"
+    ],
+    "SUBMACHINE_GUN": [
+        "IRON_PLATE",
+        "COPPER_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "SUBSTATION": [
+        "COPPER_PLATE",
+        "STEEL_PLATE",
+        "ADVANCED_CIRCUIT"
+    ],
+    "SULFUR": [
+        "WATER",
+        "PETROLEUM_GAS"
+    ],
+    "SULFURIC_ACID": [
+        "IRON_PLATE",
+        "SULFUR",
+        "WATER"
+    ],
+    "TANK": [
+        "STEEL_PLATE",
+        "IRON_GEAR_WHEEL",
+        "ADVANCED_CIRCUIT",
+        "ENGINE_UNIT"
+    ],
+    "TRAIN_STOP": [
+        "IRON_PLATE",
+        "STEEL_PLATE",
+        "IRON_STICK",
+        "ELECTRONIC_CIRCUIT"
+    ],
+    "TRANSPORT_BELT": [
+        "IRON_PLATE",
+        "IRON_GEAR_WHEEL"
+    ],
+    "UNDERGROUND_BELT": [
+        "IRON_PLATE",
+        "TRANSPORT_BELT"
+    ],
+    "URANIUM_CANNON_SHELL": [
+        "URANIUM_238",
+        "CANNON_SHELL"
+    ],
+    "URANIUM_FUEL_CELL": [
+        "IRON_PLATE",
+        "URANIUM_235",
+        "URANIUM_238"
+    ],
+    "URANIUM_PROCESSING": [
+        "URANIUM_ORE"
+    ],
+    "URANIUM_ROUNDS_MAGAZINE": [
+        "URANIUM_238",
+        "PIERCING_ROUNDS_MAGAZINE"
+    ],
+    "UTILITY_SCIENCE_PACK": [
+        "PROCESSING_UNIT",
+        "FLYING_ROBOT_FRAME",
+        "LOW_DENSITY_STRUCTURE"
+    ],
+    "WOODEN_CHEST": [
+        "WOOD"
+    ]
+}

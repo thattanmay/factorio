@@ -1,34 +1,53 @@
 import json
 from pathlib import Path
 
-diagram = []
-
 icons = json.loads(Path('icons.json').read_text())
-relational_data = json.load(open('relationship.json'))
+recipe_data = json.load(open('recipes.json'))
 
-for icon, url in icons.items():
-    if icon in (
-            'STONE',
-            'WOOD',
-            'IRON_ORE',
-            'COPPER_ORE',
-            'URANIUM_ORE',
-    ):
-        diagram.append(fr"{fr'{icon}(( ':30}<img src='{url:100}' /> ))")
-for icon in relational_data.keys():
-    diagram.append(fr"{fr'{icon}(( ':30}<img src='{icons[icon]:100}' /> ))")
+icons_created = []
 
-diagram.append('\n\n')
+target_items = ['LOGISTIC_SCIENCE_PACK']
 
-for parent, children in relational_data.items():
-    for child in children:
-        diagram.append(f'{child:30} --> {parent}')
+
+def create_recipe(target_items, recipe_data, nodes, diagram):
+    for item in target_items:
+        if item not in recipe_data:
+            return
+        nodes[item] = f"{item}(( <img src='{icons[item]}' /> ))"
+        for ingredient in recipe_data[item]:
+            nodes[
+                ingredient] = f"{ingredient}(( <img src='{icons[ingredient]}' /> ))"
+            try:
+                diagram[item].append(ingredient)
+            except KeyError:
+                diagram[item] = [
+                    ingredient,
+                ]
+            create_recipe([
+                ingredient,
+            ], recipe_data, nodes, diagram)
+
+
+nodes = {}
+diagram = {}
+
+target_items = [
+    'LOGISTIC_SCIENCE_PACK', 'AUTOMATION_SCIENCE_PACK', 'MILITARY_SCIENCE_PACK'
+]
+
+create_recipe(target_items, recipe_data, nodes, diagram)
 
 with open('factorio.md', 'w') as f:
     f.write('```mermaid\n')
     f.write('graph TD\n\n')
 
-    for inst in diagram:
-        f.write(f"{inst}\n")
+    for node in nodes.values():
+        f.write(f"{node}\n")
+
+    f.write('\n\n')
+
+    for product, ingredients in diagram.items():
+        for ingredient in set(ingredients):
+            f.write(f"{ingredient:50} --> {product}\n")
 
     f.write('\n\n\n```\n')

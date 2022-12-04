@@ -11,7 +11,8 @@ icons = {}
 for img in soup.find_all('img'):
     try:
         img_url = f"https://wiki.factorio.com{img['src']}"
-        icons[img_url.split('/')[-1].split('px-')[-1].upper()[:-4]] = img_url
+        icons[img_url.split('/')[-1].split('px-')[-1].upper()[:-4].replace(
+            '-', '_')] = img_url
     except KeyError:
         pass
 
