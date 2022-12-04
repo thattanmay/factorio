@@ -32,8 +32,13 @@ nodes = {}
 diagram = {}
 
 target_items = [
-    'LOGISTIC_SCIENCE_PACK', 'AUTOMATION_SCIENCE_PACK', 'MILITARY_SCIENCE_PACK'
+    'LOGISTIC_SCIENCE_PACK', 'AUTOMATION_SCIENCE_PACK',
+    'MILITARY_SCIENCE_PACK', 'CHEMICAL_SCIENCE_PACK',
+    'PRODUCTION_SCIENCE_PACK', 'UTILITY_SCIENCE_PACK', 'ROCKET_SILO'
 ]
+# target_items = [
+#     'ROCKET_SILO',
+# ]
 
 create_recipe(target_items, recipe_data, nodes, diagram)
 
